@@ -61,7 +61,10 @@ body {
   height: 500px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 80px 0 0 100px;
+  padding: 0 0 0 100px;
+}
+.bannertext h3 {
+  padding-top: 80px;
 }
 .title {
   max-width: 498px;
@@ -98,7 +101,35 @@ body {
   font-weight: 500;
 }
 .bannerbg {
-  height: 300;
+  background: url(images/pexels-rakicevic-nenad-1262304.jpg);
+  height: 450px;
+  border-radius: 0px 0px 0px 200px;
+  position: relative;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  flex: 1.2;
+}
+.bannerbg span {
+  position: absolute;
+  background: #072c59;
+  width: 224px;
+  height: 220px;
+  right: 470px;
+  top: 250px;
+  border-radius: 100%;
+  z-index: -1;
+}
+.bannerbg small {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  right: 550px;
+  top: 320px;
+  border-radius: 100%;
+  z-index: 22222;
+  color: #da3673;
+  background: #da3673;
 }
 #main {
   text-align: center;
