@@ -268,3 +268,76 @@ body {
   color: #ffffff;
   opacity: 0.5;
 }
+.interest {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 100px 10%;
+  height: 500px;
+}
+.session-img {
+  background: url(images/pexels-ekrulila-3837487.jpg);
+  height: 350px;
+  width: 498px;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 200px 95.5px 0px;
+  display: flex;
+  align-items: flex-end;
+}
+.session-img span {
+  height: 86px;
+  width: 86px;
+  border-radius: 100%;
+  background: #da3673;
+  display: flex;
+  margin-bottom: -40px;
+  margin-left: -40px;
+  z-index: -1;
+}
+.section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-text h2 {
+  color: #072c59;
+  font-size: 40px;
+  font-family: " DM serif Display", serif;
+  font-weight: normal;
+  line-height: 56px;
+}
+.section-text button {
+  font-size: 10px;
+}
+#b2 {
+  height: 48px;
+  width: 190px;
+  padding: 10px 5px;
+  background-color: #da3673;
+  border-radius: 8px;
+  box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.15);
+  color: white;
+  border: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+}
+.goals {
+  background: #ffd8a7;
+  padding: 30px 5%;
+  text-align: center;
+}
+.goals h3 {
+  color: #072d5a;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: " DM serif Display", serif;
+  line-height: 30px;
+}
+.goals p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
